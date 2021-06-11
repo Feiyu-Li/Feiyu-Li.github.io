@@ -1,0 +1,207 @@
+
+#header a {
+   color: #d0d0d0;
+   text-decoration: none;
+   font-family: georgia;
+   font-size: 17px;
+}
+.aa{
+	width: 40px;
+	height: 40px;
+	border-radius:50px ;
+	overflow: hidden;
+	 background: #ffffff;
+}
+#header a:hover {
+    color: #DDD;
+}
+/* 导航栏按钮 */
+.btn {
+    display: none;
+    float:right;
+    margin-top: 5px;
+    border: 0;
+    border-radius: 5px;
+    width: 40px;
+    height: 40px;
+}
+/* 文字Logo */
+#header a.logo {
+    float:left;
+    
+   margin-top: 20px;
+   margin-left: 200px;
+}
+
+#header div.nav {
+	width: 100%;
+	margin: 0 auto;
+    height: 90px;
+	background: rgba(0,0,0,0.6);
+}
+
+#header ul.nav-bar {
+    list-style: none;
+    float: left;
+    line-height: 50px;
+    margin-left: 70px;
+	margin-top: 15px;
+    
+}
+#header ul.nav-bar>li {
+    float:left;
+   margin-left:35px;
+    position: relative;
+    color: red;
+}
+
+
+.nav-bar>li>ul{
+	width: 145px;
+	height: 160px;
+	background: #333333;
+	margin-top: 0px;
+	display: none; 
+	text-indent: 1em;
+	position: absolute;
+	z-index: 999;
+}
+.nav-bar ul li{
+	width: 145px;
+	text-align: left;
+	list-style: none;
+}
+.move{
+	display: none;
+    height: 4px;
+    width: 100%;
+    border-top: 4px solid #0066b3;/*只需要将上边显示出来*/
+    position: absolute;
+    left: -1%;
+    top: 45px;
+}
+.nav table{
+		float: left;
+		width: 150px;
+		margin-left: 100px;
+		margin-top: 10px;
+	}
+	.nav table td{
+		padding-left: 30px;
+		height: 60px;
+	}
+	.nav table .aa{
+		width: 40px;
+		height: 40px;
+		border-radius:50px ;
+		overflow: hidden;
+		 background: #ffffff;
+	}
+
+.content3{
+	width: 1300px;
+	background: #242831;
+}
+.content3 table{
+	width: 900px;
+	font-size: 14px;
+	color: white;
+	margin: 0 auto;
+	
+}
+.content3 td{
+	width: 180px;
+}
+
+@media screen and (max-width: 768px){
+    #header {
+		width: 100%;
+        height: 650px;
+        overflow: auto;
+    }
+	.nav{
+		width: 100%;
+		height: 90px;
+		overflow: hidden;
+	}
+    ::-webkit-scrollbar {
+	  display: none; /* Chrome Safari */
+	}
+	#header a.logo{
+		margin-left: 10px;
+	}
+    #header .logo img{
+        width: 130px;
+		margin-left: 0;
+    }
+	.nav table{
+		display: none;
+	}
+    .btn {
+        display: block;
+        margin-right: 2%;
+        margin-top: 20px;
+    }
+    #header ul.nav-bar {
+        margin-top: 15px;
+        border-top: solid 1px #111;
+        width:100%;
+        margin-left: 0;
+    }
+    #header ul.nav-bar li {
+        float: none;
+        margin-left: 10%;
+    }
+    .move{
+    	width: 40%;
+    }
+    .nav-bar>li>ul{
+    	position: static;
+    }
+	.wenzi2{
+		width: 90%;
+		height:400px ;
+		margin: 0 auto;
+		position: static;
+		border-radius: 15px;
+	}
+	.wenzi2 .biaoti1{
+		width: 200px;
+		font-size: 25px;
+		line-height: 60px;
+		margin-left: 40px;
+	}
+	.wenzi2 .biaoti2{
+		width: 200px;
+		font-size: 14px;
+		margin-left: 40px;
+	}
+	.wenzi2 .biaoti3{
+		width: 250px;
+		font-size: 10px;
+		word-break:break-all;
+		margin-top: 20px;
+		margin-left: 40px;
+	}
+	.wenzi2 .img1{
+		width: 44px;
+		float: left;
+		margin-top: 5px;
+	}
+	.wenzi2 .img2{
+		width: 30px;
+		float: left;
+		margin-left: 100px;
+		
+	}
+	.content3{
+		
+		width: 100%;
+	}
+	.content3 table{
+		width: 100%;
+	}
+	.content3 .t1{
+		display: none;
+	}
+}

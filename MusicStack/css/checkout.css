@@ -1,0 +1,72 @@
+*{
+				margin: 0;
+				padding: 0;
+			}
+			.container{
+				width: 1300px;
+				margin: 0 auto;
+				background: #242831;
+				height: 810px;
+			}
+			.content1{
+				width: 900px;
+				height: 280px;
+				background:#393c45 ;
+				margin: 0 auto;
+				border: 1px solid #393c45;
+			}
+			.content1 table{
+				width: 90%;
+				margin:  30PX auto 0 auto;
+			}
+			.content1 td{
+				height: 70px;
+			}
+			.yuan{
+				width: 30px;
+				height: 30px;
+				border-radius: 50%;
+			}
+			input{
+				width: 215px;
+				height: 40px;
+				background:#fa9014 ;
+				border: 0;
+				border-radius: 10px;
+				font-size: 15px;
+				color: white;
+			}
+			.dui{
+				background: url(../img/组%2096.png);background-size: 100%;text-align: center;font-weight: bolder;line-height: 30px;color: white;
+			}
+			.wenzi{
+				width: 900px;margin: 0 auto;color: white;
+			}
+			.name{
+				width: 900px;margin: 0 auto;color: white;
+			}
+			.jia{
+				color: #bc7615;font-size: 18px;float: right;
+			}
+			@media screen and (max-width: 768px){
+				.container{
+					width: 100%
+				}
+				#header{
+					height: 90px;
+				}
+				.wenzi{
+					width: 90%;
+					margin: 0 auto;
+				}
+				.content1{
+					width: 90%;
+				}
+				.yuan{
+					width: 25px;
+					height: 25px;
+				}
+				.content1 td span{
+					font-size: 14px;
+				}
+			}

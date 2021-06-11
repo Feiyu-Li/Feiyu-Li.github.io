@@ -1,0 +1,208 @@
+*{
+				margin: 0;
+				padding: 0;
+			}
+			.container{
+				width: 1300px;
+				margin: 0 auto;
+				background: #242831;
+				height: 1600px;
+			}
+			.content1{
+				width: 900px;
+				margin: 20px auto 0 auto;
+				background: #393c45;
+				border-radius: 5px;
+				overflow: hidden;
+				height: 300px;
+			}
+			.content1 .left{
+				width: 200px;
+				height: 200px;
+				float: left;
+				margin-top: 50px;
+				margin-left: 50px;
+				
+				
+			}
+			.content1 .left div{
+				width: 85%;
+				height: 100%;
+			}
+			.content1 .right {
+				float: left;
+				width: 550px;
+				height: 215px;
+				margin-left: 70px;
+				margin-top: 20px;
+				
+			}
+			.content1 .a{
+				color: #ffffff;
+				text-decoration: underline;
+				
+			}
+			.content1 .c{
+				color: #ffffff;
+			}
+			 .content1 .right a{
+				text-decoration: none;
+			}
+			.caozuo{
+				margin-top: 60px;
+			}
+			.caozuo ul{
+				margin-left: -30px;
+			}
+			 .caozuo ul,
+			li {
+				list-style: none;
+			}
+			
+			.caozuo a {
+				text-decoration: none;
+			}
+			
+			.caozuo a:hover {
+				cursor: pointer;
+				text-decoration: none;
+			}
+			
+			.caozuo a:link {
+				text-decoration: none;
+			}
+			
+			.caozuo img {
+				vertical-align: middle;
+			}
+			
+			.caozuo .btn-numbox {
+				overflow: hidden;
+				margin-top: 20px;
+			}
+			
+			.caozuo .btn-numbox li {
+				float: left;
+				
+			}
+			
+			.caozuo .btn-numbox li .number,
+			.kucun {
+				display: inline-block;
+				font-size: 12px;
+				color: #ffffff;
+				vertical-align: sub;
+			}
+			
+			.caozuo .btn-numbox .count {
+				overflow: hidden;
+				margin: 5px 16px 0 -20px;
+				border: 1px solid white;
+				border-radius: 10px;
+			}
+			
+			.caozuo .btn-numbox .count .num-jian,
+			.input-num,
+			.num-jia {
+				display: inline-block;
+				width: 20px;
+				height: 20px;
+				line-height: 20px;
+				text-align: center;
+				font-size: 14px;
+				color: #ffffff;
+				cursor: pointer;
+			}
+			.caozuo .btn-numbox .count .input-num {
+				width: 20px;
+				height: 20px;
+				color: #ffffff;
+				border: 0;
+				font-size: 14px;
+				background: #393C45;
+			}
+			.footer{
+				width: 1300px;
+				height: 200px;
+				background:#111317 ;
+				margin: 30px auto 0 auto;
+			}
+			.footer div{
+				width: 900px;
+				margin: 0 auto;
+				text-align: right;
+			}
+			.footer p{
+				font-size: 25px;
+				color: white;
+				font-family: georgia;
+			}
+			.footer input{
+				width: 215px;
+				height: 40px;
+				background:#fa9014 ;
+				border: 0;
+				border-radius: 10px;
+				font-size: 15px;
+				color: white;
+			}
+			@media screen and (max-width: 768px){
+				.container{
+					width: 100%;
+				}
+				#header{
+					height: 90px;
+				}
+				.xian{
+					display: none;
+				}
+				
+				.content1 .left{
+					width: 90%;
+					height: 300px;
+					float: none;
+					margin: 50px auto 0 auto;
+				}
+				.content1 {
+					width: 100%;
+					height: 600px;
+					position: relative;
+					
+				}
+				.content1 .right{
+					width: 90%;
+					margin: 20px auto 0 auto;
+					float: none;
+					
+				}
+				.content1 .right .a{
+					width: 90%;
+					margin: 0 auto;
+				}
+				.content1 .right .c{
+					width: 90%;
+					margin: 0 auto;
+
+				}
+				.content1 .cha{
+					position: absolute;
+					right: 10px;
+					top: 0;
+				}
+				.content1 .caozuo{
+					width: 90%;
+					margin:  0 auto;
+				}
+				.content1 .caozuo>ul ul{
+					margin-left: 30px;
+				}
+				.footer{
+					width: 100%;
+					margin-top: 0;
+				}
+				.footer div{
+					width: 100%;
+					text-align: center;
+					
+				}
+			}
